@@ -1,0 +1,75 @@
+body{
+    background-image: url('../images/background_accueil.jpg');
+    background-size: 100%;
+}
+
+
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+
+}
+
+table {
+	background-color: aqua;
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50px;
+	border-radius: 5%;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#cont{
+    margin-left: 35%;
+	margin-top: 25%;
+}
+
+#content{
+    margin-left: 35%;
+	margin-top: 30%;
+}
+
+ button{
+
+    margin-top: 5%;
+    cursor: pointer;
+    padding: 14px 70px;
+    border-radius: 15px;
+    background-color: #e94a34;
+    color: white;
+    font-size: 20px;
+    font-family: "Fugaz One";
+    transition: all 0.3s;
+	margin-left: 2%;
+}
+  button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+

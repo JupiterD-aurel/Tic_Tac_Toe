@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    background-color: black;
+}
+
+body{
+    background-image: url('../images/background_accueil.jpg');
+    background-size: 100%;
+}
+
+
+
+#mainconteneur{
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+ .playbutton{
+    margin-top: 5%;
+    cursor: pointer;
+    padding: 14px 70px;
+    border-radius: 15px;
+    background-color: #e94a34;
+    color: white;
+    font-size: 20px;
+    font-family: "Fugaz One";
+    transition: all 0.3s;
+}
+  .playbutton:hover{
+    transform: scale(1.1);
+}
+
+#title{
+    font-family: 'Fugaz One';
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
